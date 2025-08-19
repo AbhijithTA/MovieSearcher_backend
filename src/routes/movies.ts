@@ -37,7 +37,7 @@ router.post("/save", auth, async (req: AuthRequest, res) => {
 
     const user = await User.findById(req.user?.id);
     if (user) {
-      user.movies.push(movie._id);
+      user.movies.push(movie._id as import("mongoose").Types.ObjectId);
       await user.save();
     }
     res.json({ message: "Movie saved" });
