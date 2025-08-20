@@ -20,9 +20,9 @@ The backend provides REST APIs for authentication, searching movies (via OMDb AP
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/mini-movie-app.git
-cd mini-movie-app/backend
-
+git clone https://github.com/AbhijithTA/MovieSearcher_backend.git
+cd backend
+```
 ### 2. Install Dependencies
 ```
 npm Install
